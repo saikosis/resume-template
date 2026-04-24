@@ -1,58 +1,56 @@
-# Resume
+# Jarmos's Resume Template
 
-The contents of this repository is how I create my resume using
-[Typst](https://typst.app). Its a modern alternative to LaTeX with an intuitive
-and easy-to-use syntax.
+This template repository contains the [Typst](https://typst.app) source code
+used to build [my resume](https://github.com/Jarmos-san/resume). I prefer using
+Typst over LaTeX due to its intuitive, Markdown-like syntax and the "coding
+mode".
 
 ## Get Started
 
-To started with composing your resume using the same tools as I did in this
+To get started with composing your resume using the same tools as I did in this
 repository, follow these guidelines:
 
 1. Fork the repository and clone it locally to your system.
 2. Ensure Typst is installed and accessible (follow
-   [the official installation guideline](https://github.com/typst/typst?tab=readme-ov-file#installation)).
-   (**Optionally**) You will also need [Task](https://taskfile.dev) for ease of
-   compiling the markup code to a PDF document.
-3. Run the relevant commands to check whether the compilation step succeeds:
-
-   _Using Task_:
-
-   ```console
-   task compile
-   ```
-
-   **Without Using Task**:
+   [the official installation guidelines](https://github.com/typst/typst?tab=readme-ov-file#installation)).
+3. Run the relevant commands as a sanity check to identify whether tools are
+   setup properly:
 
    ```console
    mkdir build
-   typst compile main.typ build/resume.pdf
+   typst compile ./src/main.typ ./build/resume.pdf
    ```
 
-4. (_Additionally_), to compile and watch for changes at the same time, you can
-   invoke the following command:
-
-   **Using Task**:
-
-   ```console
-   task
-   ```
-
-   **Without Using Task**:
+4. To compile and watch for changes at the same time, you can invoke the
+   following command:
 
    ```console
    mkdir build
-   typst watch main.typ build/resume.pdf
+   typst watch ./src/main.typ ./build/resume.pdf
    ```
 
-If the aforementioned commands succeeds, you should then see a compiled PDF
-ready for review. Open it in your preferred PDF reader, review it, make the
-necessary changes and run the commands once again.
+If you followed the steps properly until now and can verify the contents of the
+PDF are as expected then you should proceed ahead to edit the source code with
+your information.
+
+1. Open the `./src/variables.typ` file which contains a bunch of variables
+   related to your personal information such as your name, contact details, the
+   alma mater, previous work experience and so on.
+
+2. Once you have edited the file and replaced the contents with information
+   about yourself, run the commands above to compile the resume's PDF.
+
+3. With the PDF rendered, review it for correctness and then continue applying
+   to the jobs of your choice!
+
+For some guidance/tips and tricks to draft a good technical resume, check out my
+write-up in the DevelopersIndia wiki -
+[How to Create an Ideal Software Engineering Resume](https://wiki.developersindia.in/community-guides/how-to-create-an-ideal-software-engineering-resume).
 
 ## Attribution and Credits
 
 Work on the resume would not have been possible without the help of the
-following resources (and everyone involved with the mentioned resources):
+following resources (and everyone else involved in the process):
 
 - The
   [r/EngineeringResumes Resume Template](https://docs.google.com/document/d/1MBvhATv8y-ESORopRoLSZ3f3HjkM_Qa_f8fIHAEqgnI)
