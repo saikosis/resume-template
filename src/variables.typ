@@ -1,34 +1,35 @@
 // Document metadata
 #let doc = (
-  author: "John Doe",
-  title: "Jarmos's Resume",
+  author: "Sai Sampath Karumudi",
+  title: "Sai Sampath Karumudi",
   description: "Jarmos's Software Development Engineering (SDE) resume written and built using Typst.",
   keywords: ("resume", "engineering", "typst"),
 )
 
 // College related information
 #let college = (
-  name: "University of Georgia",
-  degree: "MSc",
-  subject: "Computer Science and Information Technology",
-  start: 2013,
-  end: 2015,
+  name: "GITAM University",
+  degree: "B.Tech",
+  subject: "Electronics & Communication Engineering",
+  start: 2015,
+  end: 2019,
 )
 
 // Skills
 #let skills = (
-  "Software Development": "Python, Golang, Lua, TypeScript (and JavaScript)",
-  "Frameworks & Libraries": "FastAPI, Nuxt.js, Chi, SQLAlchemy",
-  "Miscellaneous": "Terraform, Ansible, Git, Packer, PostgreSQL",
+  "Software Development": "Python, JavaScript, HTML, CSS",
+  "Frameworks & Libraries": "PyTorch, , Flask, FastAPI, LangChain, LangGraph, Scikit-Learn, Statsmodel",
+  "Miscellaneous": "Docker, Databricks, Git, SQl, AWS",
 )
 
 // Header related information
 #let details = (
-  name: "John Doe",
+  name: "Sai Sampath Karumudi",
+  phone: "+91 9640496440",
+  location: "Hyderabad, Telangana"
   links: (
-    (type: "email", url: "contact@jarmos.dev", display: "contact@jarmos.dev"),
-    (url: "https://jarmos.dev", display: "jarmos.dev"),
-    (url: "https://github.com/Jarmos-San", display: "github.com/Jarmos-san"),
+    (type: "email", url: "sampath.karumudi@gmail.com", display: "sampath.karumudi@gmail.com"),
+    (url: "https://github.com/saikosis", display: "github.com/saikosis"),
   ),
 )
 
