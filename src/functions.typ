@@ -32,9 +32,11 @@
 
 // Function to define the section of the resume
 #let section(body) = {
-  text(size: 15pt)[#body]
+  line(length: 100%, stroke: 1pt)      // top rule
   v(4pt, weak: true)
-  line(length: 100%, stroke: 1pt)
+  text(size: 11pt)[#body]
+  v(4pt, weak: true)
+  line(length: 100%, stroke: 1pt)      // bottom rule
   v(6pt, weak: true)
 }
 
