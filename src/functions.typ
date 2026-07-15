@@ -42,7 +42,7 @@
 
 #let experience(designation, company, location, start, end, pointers) = {
   role(designation, company, location, start, end)
-  v(2pt, weak: true)   // reduce gap between the role header and the bullet points
+  v(6pt, weak: true)   // reduce gap between the role header and the bullet points
   for pointer in pointers {
     text(size: 9.5pt)[- #pointer #linebreak()]
   }
