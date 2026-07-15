@@ -62,7 +62,7 @@
       "Automated image annotation using Gemini Flash and Vertex AI, significantly reducing manual labeling effort and accelerating model development.",
       "Developed personalized notification recommendation models using K-Means clustering and recommendation techniques, increasing notification click-through rates to 5% across multiple devices.",
       "Developed a clinical trial adherence prediction solution using logistic regression and sliding-window modeling to proactively identify participant drop-off across multiple studies.",
-      "Built scalable feature engineering and model execution pipelines using Snowflake and Databricks for production ML workflows.",
+      "Built feature engineering and model execution pipelines in Snowflake and Databricks for production ML workflows.",
     ),
   ),
   (
