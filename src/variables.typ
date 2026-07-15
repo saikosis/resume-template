@@ -74,7 +74,7 @@
     achievements: (
       [Enhanced the Lumin enterprise AI data intelligence platform by developing forecasting capabilities and improving backend performance.],
       [Migrated backend services from Flask to FastAPI, reducing API response latency by 75% while improving scalability and maintainability.],
-      [Built anomaly detection solutions using Random Forest models and automated narrative generation to improve pharmaceutical supply chain analytics and operational planning.]
+      [Built anomaly detection solutions using Random Forest models and automated narrative generation to improve pharmaceutical supply chain analytics and operational planning.],
       [Designed analytics APIs integrating Monte Carlo Simulation, PERT, and CPM algorithms while implementing automated retraining pipelines to address model and data drift.],
     ),
   ),
