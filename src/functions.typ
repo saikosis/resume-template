@@ -34,7 +34,7 @@
 #let section(body) = {
   line(length: 100%, stroke: 1pt)      // top rule
   v(4pt, weak: true)
-  text(size: 11pt)[#body]
+  text(size: 15pt)[#body]
   v(4pt, weak: true)
   line(length: 100%, stroke: 1pt)      // bottom rule
   v(6pt, weak: true)
