@@ -19,7 +19,7 @@
 // The "skills" section
 #section[Skills]
 #for (key, value) in skills {
-  [*#key*: #value #linebreak()]
+  text(size: 9.5pt)[*#key*: #value #linebreak()]
 }
 
 // The "experience" section
