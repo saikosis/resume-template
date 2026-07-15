@@ -18,9 +18,9 @@
 // Skills
 #let skills = (
   "Software Development": "Python, JavaScript, HTML, CSS, Docker",
-  "Frameworks & Libraries": "PyTorch , FastAPI, LangChain, LangGraph, Scikit-Learn, Statsmodel, Pandas, Numpy, Matplotlib",
+  "Frameworks & Libraries": "PyTorch , FastAPI, LangChain, LangGraph, Scikit-Learn, Statsmodel",
   "Tools": "AWS, Opensearch, Git, SQl, Databricks, MLFlow",
-  "Miscellaneous": "RAG, Multi-Agent Orchestration, LoRA, QLoRA, VAE, GAN, Transformers",
+  "Miscellaneous": "RAG, Multi-Agent Orchestration, LoRA, QLoRA, VAE, GAN, Transformers, ML",
 )
 
 // Header related information
@@ -43,10 +43,10 @@
     start: "Jan 2025",
     end: "Present",
     achievements: (
-      "Architected and developed 10+ production-grade Retrieval-Augmented Generation (RAG) applications using OpenAI GPT, LangGraph, and Python, enabling enterprise knowledge search across multipl[...]",
-      "Designed scalable document ingestion, embedding, indexing, and retrieval pipelines using OpenSearch, Amazon S3, Redshift, DynamoDB, and AWS Lambda, significantly improving enterprise knowle[...]",
+      "Architected and developed 10+ production-grade RAG applications using OpenAI, LangGraph, and Python, enabling enterprise knowledge search across multiple business domains",
+      "Designed scalable document ingestion, embedding, indexing, and retrieval pipelines using OpenSearch, Amazon S3, Redshift, DynamoDB, and AWS Lambda, significantly improving enterprise knowledge accessibility.",
       "Developed backend APIs and multi-agent workflows using LangGraph while implementing LLM evaluation and observability through LangSmith for prompt optimization and production monitoring.",
-      "Developed an enterprise forecasting platform supporting SARIMA, Prophet, Statsmodels, and Amazon DeepAR, with automated training and inference pipelines using SageMaker, Step Functions, ECS[...]",
+      "Developed an enterprise forecasting platform supporting SARIMA, Prophet, Statsmodels, and Amazon DeepAR, with automated training and inference pipelines using SageMaker, Step Functions, ECS, Lambda, DynamoDB, and S3",
       "Collaborated with product managers, frontend engineers, and business stakeholders to deliver secure, scalable AI applications for enterprise users.",
       "Drive engineering best practices around modular architecture, reusable AI components, asynchronous processing, and scalable backend services.",
     ),
@@ -60,7 +60,7 @@
     achievements: (
       "Led development of a facial emotion recognition system using OpenCV, PyTorch, and transfer learning, achieving 91%+ classification accuracy across multiple CNN architectures.",
       "Automated image annotation using Gemini Flash and Vertex AI, significantly reducing manual labeling effort and accelerating model development.",
-      "Developed personalized notification recommendation models using K-Means clustering and recommendation techniques, increasing notification click-through rates to 5% across multiple device pl[...]",
+      "Developed personalized notification recommendation models using K-Means clustering and recommendation techniques, increasing notification click-through rates to 5% across multiple device platforms.",
       "Developed a clinical trial adherence prediction solution using logistic regression and sliding-window modeling to proactively identify participant drop-off across multiple studies.",
       "Built scalable feature engineering and model execution pipelines using Snowflake and Databricks for production ML workflows.",
     ),
@@ -85,9 +85,9 @@
     start: "Jul 2019",
     end: "Apr 2020",
     achievements: (
-      "Developed deep learning-based fraud detection models for Citi Bank, achieving an F1-score of 0.96, 94% recall, and contributing to approximately $18M annual reduction in fraudulent transact[...]",
+      "Developed deep learning-based fraud detection models for Citi Bank, achieving an F1-score of 0.96, 94% recall, and contributing to approximately $18M annual reduction in fraudulent transactions.",
       "Developed NLP-based competitor intelligence solutions using Bi-LSTM models, automated web scraping pipelines, and KPI reporting dashboards to generate actionable business insights.",
-      "Built computer vision solutions for hyperspectral image classification, object detection, and engineering floor-plan analysis using PyTorch, Detectron2, OpenCV, and transfer learning techni[...]",
+      "Built computer vision solutions for hyperspectral image classification, object detection, and engineering floor-plan analysis using PyTorch, Detectron2, OpenCV, and transfer learning techniques.",
     ),
   ),
 )
