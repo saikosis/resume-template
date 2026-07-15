@@ -1,7 +1,7 @@
 // Function to define the header of the resume
 #let header(name, contacts) = {
   text(size: 25pt, align(center, [#name]))
-  v(8pt, weak: true)
+  v(12pt, weak: true)   // increased from 8pt -> 12pt to add more space
   text(
     align(
       center,
@@ -38,6 +38,14 @@
   v(4pt, weak: true)
   line(length: 100%, stroke: 1pt)      // bottom rule
   v(6pt, weak: true)
+}
+
+#let skills(title, items) = {
+  // keep the section title styling (15pt) but render each skill item at 9.5pt
+  section(title)
+  for item in items {
+    text(size: 9.5pt)[- #item #linebreak()]
+  }
 }
 
 #let experience(designation, company, location, start, end, pointers) = {
