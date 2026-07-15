@@ -26,11 +26,11 @@
 // Header related information
 #let details = (
   name: "Sai Sampath Karumudi",
-  phone: "+91 9640496440",
-  location: "Hyderabad, Telangana",
-  links: (
+  contacts: (
     (type: "email", url: "sampath.karumudi@gmail.com", display: "sampath.karumudi@gmail.com"),
+    (url: "tel:+91 9640496440", display: "+91 9640496440"),
     (url: "https://github.com/saikosis", display: "github.com/saikosis"),
+    (url: "geo:Hyderabad, Telangana", display: "Hyderabad, Telangana"),
   ),
 )
 
@@ -46,7 +46,7 @@
       "Architected and developed 10+ production-grade RAG applications using OpenAI, LangGraph, and Python, enabling enterprise knowledge search across multiple business domains",
       "Designed scalable document ingestion, embedding, indexing, and retrieval pipelines using OpenSearch, Amazon S3, Redshift, DynamoDB, and AWS Lambda, significantly improving enterprise knowledge accessibility.",
       "Developed backend APIs and multi-agent workflows using LangGraph while implementing LLM evaluation and observability through LangSmith for prompt optimization and production monitoring.",
-      "Developed an enterprise forecasting platform supporting SARIMA, Prophet, Statsmodels, and Amazon DeepAR, with automated training and inference pipelines using SageMaker, Step Functions, ECS, Lambda, DynamoDB, and S3",
+      "Developed an enterprise forecasting platform supporting SARIMA, Prophet, and Amazon DeepAR.",
       "Collaborated with product managers, frontend engineers, and business stakeholders to deliver secure, scalable AI applications for enterprise users.",
       "Drive engineering best practices around modular architecture, reusable AI components, asynchronous processing, and scalable backend services.",
     ),
