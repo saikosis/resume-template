@@ -17,9 +17,10 @@
 
 // Skills
 #let skills = (
-  "Software Development": "Python, JavaScript, HTML, CSS",
-  "Frameworks & Libraries": "PyTorch, , Flask, FastAPI, LangChain, LangGraph, Scikit-Learn, Statsmodel",
-  "Miscellaneous": "Docker, Databricks, Git, SQl, AWS",
+  "Software Development": "Python, JavaScript, HTML, CSS, Docker",
+  "Frameworks & Libraries": "PyTorch , FastAPI, LangChain, LangGraph, Scikit-Learn, Statsmodel, Pandas, Numpy, Matplotlib",
+  "Tools": "AWS, Opensearch, Git, SQl, Databricks, MLFlow",
+  "Miscellaneous": "RAG, Multi-Agent Orchestration, LoRA, QLoRA, VAE, GAN, Transformers",
 )
 
 // Header related information
@@ -36,52 +37,57 @@
 // Past work experience and achievements
 #let experiences = (
   (
-    designation: "Chief Technology Officer (CTO)",
-    company: "Confidential Company",
-    location: "Remote",
-    start: "2022",
-    end: datetime.today().year(),
+    designation: "Senior Software Engineer (AI/ML)",
+    company: "Bristol Myers Squibb",
+    location: "Hyderabad",
+    start: "Jan 2025",
+    end: "Present",
     achievements: (
-      [*Co-founded* a company specializing in *custom web-based software solutions*, empowering *online businesses and digital content creators* with tailored tools to streamline operations and enhance their digital presence.],
-      [*Established and led the engineering team*, overseeing Software Development, Cybersecurity, and DevOps, and *implemented best practices* to ensure scalability, security, and operational efficiency.],
-      [*Designed and led* the development of flagship products (including open-source initiatives), built for e-commerce and content workflows, increasing user adoption and contributing to revenue growth.],
-      [*Spearheaded* the company's *open-source initiative*, establishing contribution guidelines, promoting adoption, and engaging with the developer community to strengthen the ecosystem.],
+      [Architected and developed 10+ production-grade Retrieval-Augmented Generation (RAG) applications using OpenAI GPT, LangGraph, and Python, enabling enterprise knowledge search across multiple business domains.],
+      [Designed scalable document ingestion, embedding, indexing, and retrieval pipelines using OpenSearch, Amazon S3, Redshift, DynamoDB, and AWS Lambda, significantly improving enterprise knowledge accessibility.],
+      [Developed backend APIs and multi-agent workflows using LangGraph while implementing LLM evaluation and observability through LangSmith for prompt optimization and production monitoring.],
+      [Developed an enterprise forecasting platform supporting SARIMA, Prophet, Statsmodels, and Amazon DeepAR, with automated training and inference pipelines using SageMaker, Step Functions, ECS, Lambda, DynamoDB, and S3.],
+      [Collaborated with product managers, frontend engineers, and business stakeholders to deliver secure, scalable AI applications for enterprise users.],
+      [Drive engineering best practices around modular architecture, reusable AI components, asynchronous processing, and scalable backend services.],
     ),
   ),
   (
-    designation: "Senior Software Engineer",
-    company: "Confidential Technology Firm",
-    location: "Remote",
-    start: 2021,
-    end: 2022,
+    designation: "ML Engineer",
+    company: "Genpact",
+    location: "Hyderabad",
+    start: "Sep 2023",
+    end: "Nov 2024",
     achievements: (
-      [*Built an engineering team from the ground up*, establishing development workflows and collaboration practices that improved team productivity.],
-      [*Led a cross-functional engineering team* (Frontend, Backend, DevOps) to *design*, *develop*, and *launch an MVP*, accelerating product validation and time-to-market.],
-      [*Designed the foundational architecture* for a product leveraging *photogrammetry and Machine Learning (ML)* to generate high-quality 3D models from 2D inputs.],
+      [Led development of a facial emotion recognition system using OpenCV, PyTorch, and transfer learning, achieving 91%+ classification accuracy across multiple CNN architectures.],
+      [Automated image annotation using Gemini Flash and Vertex AI, significantly reducing manual labeling effort and accelerating model development.],
+      [Developed personalized notification recommendation models using K-Means clustering and recommendation techniques, increasing notification click-through rates to 5% across multiple device platforms.],
+      [Developed a clinical trial adherence prediction solution using logistic regression and sliding-window modeling to proactively identify participant drop-off across multiple studies.],
+      [Built scalable feature engineering and model execution pipelines using Snowflake and Databricks for production ML workflows.],
     ),
   ),
   (
-    designation: "Technical Writer",
-    company: "Confidential AI Company",
+    designation: "Associate Data Scientist",
+    company: "LTIMindtree",
     location: "Remote",
-    start: "2020",
-    end: "2021",
+    start: "Apr 2022",
+    end: "Sep 2023",
     achievements: (
-      [*Collaborated with marketing teams* to define a technical content strategy around *Computer Vision (CV) and Machine Learning (ML)*, improving clarity and accuracy of published material.],
-      [*Published technical articles on CV and Autonomous Systems*, contributing to a *~25% improvement in keyword effectiveness* and overall content quality.],
-      [*Optimized blog content for SEO* through structured keyword integration, resulting in a *~3x increase in organic traffic*.],
+      [Enhanced the Lumin enterprise AI data intelligence platform by developing forecasting capabilities and improving backend performance.],
+      [Migrated backend services from Flask to FastAPI, reducing API response latency by 75% while improving scalability and maintainability.],
+      [Built anomaly detection solutions using Random Forest models and automated narrative generation to improve pharmaceutical supply chain analytics and operational planning.]
+      [Designed analytics APIs integrating Monte Carlo Simulation, PERT, and CPM algorithms while implementing automated retraining pipelines to address model and data drift.],
     ),
   ),
   (
-    designation: "Software Support Engineer",
-    company: "Confidential SaaS Company",
-    location: "Major Tech Hub, India",
-    start: "2019",
-    end: "2020",
+    designation: "System Engineer (ML & Analytics)",
+    company: "Tata Consultancy Services",
+    location: "Chennai",
+    start: "Jul 2019",
+    end: "Apr 2020",
     achievements: (
-      [*Triaged and analyzed* support tickets daily, prioritizing and escalating critical issues, enabling significantly faster bug resolution and reduced downtime.],
-      [*Monitored system behavior proactively*, diagnosing frontend and backend issues and resolving them within defined SLAs, ensuring a consistent user experience.],
-      [*Facilitated cross-functional collaboration* between support and engineering teams, improving documentation and communication, and significantly reducing miscommunication-related delays.],
+      [Developed deep learning-based fraud detection models for Citi Bank, achieving an F1-score of 0.96, 94% recall, and contributing to approximately $18M annual reduction in fraudulent transactions.],
+      [Developed NLP-based competitor intelligence solutions using Bi-LSTM models, automated web scraping pipelines, and KPI reporting dashboards to generate actionable business insights.],
+      [Built computer vision solutions for hyperspectral image classification, object detection, and engineering floor-plan analysis using PyTorch, Detectron2, OpenCV, and transfer learning techniques.],
     ),
   ),
 )
