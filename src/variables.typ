@@ -2,7 +2,7 @@
 #let doc = (
   author: "Sai Sampath Karumudi",
   title: "Sai Sampath Karumudi",
-  description: "Jarmos's Software Development Engineering (SDE) resume written and built using Typst.",
+  description: "Sampath's Software Development Engineering (SDE) resume written and built using Typst.",
   keywords: ("resume", "engineering", "typst"),
 )
 
@@ -27,7 +27,7 @@
 #let details = (
   name: "Sai Sampath Karumudi",
   phone: "+91 9640496440",
-  location: "Hyderabad, Telangana"
+  location: "Hyderabad, Telangana",
   links: (
     (type: "email", url: "sampath.karumudi@gmail.com", display: "sampath.karumudi@gmail.com"),
     (url: "https://github.com/saikosis", display: "github.com/saikosis"),
