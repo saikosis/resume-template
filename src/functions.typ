@@ -43,7 +43,7 @@
 #let experience(designation, company, location, start, end, pointers) = {
   role(designation, company, location, start, end)
   for pointer in pointers {
-    text(size: 11pt)[- #pointer #linebreak()]
+    text(size: 9.5pt)[- #pointer #linebreak()]
   }
 }
 
