@@ -11,7 +11,7 @@
 )
 #set page(margin: 1.25cm)
 #show link: underline
-#set text(font: "Liberation Serif")
+#set text(font: "Source Sans Pro")
 
 // The top-level heading of the resume
 #header(details.name, details.links)
