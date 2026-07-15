@@ -14,7 +14,7 @@
 #set text(font: "Segoe UI")
 
 // The top-level heading of the resume
-#header(details.name, details.links)
+#header(details.name, details.contacts)
 
 // The "skills" section
 #section[Skills]
