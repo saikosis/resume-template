@@ -40,18 +40,18 @@
   v(6pt, weak: true)
 }
 
-#let skills(title, items) = {
-  // keep the section title styling (15pt) but render each skill item at 9.5pt
-  section(title)
-  for item in items {
-    text(size: 9.5pt)[- #item #linebreak()]
-  }
-}
-
 #let experience(designation, company, location, start, end, pointers) = {
   role(designation, company, location, start, end)
   for pointer in pointers {
     text(size: 9.5pt)[- #pointer #linebreak()]
+  }
+}
+
+#let skills_section(title, items) = {
+  section(title)
+  for key in items {
+    // Render each category (key) and its value at 9.5pt
+    text(size: 9.5pt)[- strong(key) ": " #items[key] #linebreak()]
   }
 }
 
